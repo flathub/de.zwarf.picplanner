@@ -14,7 +14,7 @@ This small program should answer all these questions.
 +4.  Find the position of the moon at a spesific time -- Implemented and equations seem to be sufficiently precise (~ ± 2°) 
 +5.  Present all calculated data in the GUI -- Most of the data is showen
 +6.  Create the location search -- A simple offline search is implemented now more will follow
--7.  Implement "smarphone functionality" e.g. find location via GPS
++7.  Implement "smarphone functionality" e.g. find location via GPS
 +8.  Insert a map view with OSM
 +9.  Visualise important data direktly on the map
 ```
@@ -31,3 +31,4 @@ Some of these formulas are from the excellent book by Jean Meeus "Astronomical A
 - Libadwaita is used to make the GUI adaptive.
 - Shumate is used to show a map.
 - Libgweather is used for the offline search functionality.
+- GeoClue is used to get the users location.
