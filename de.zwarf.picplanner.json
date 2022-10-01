@@ -1,7 +1,7 @@
 {
     "app-id" : "de.zwarf.picplanner",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "42",
+    "runtime-version" : "43",
     "sdk" : "org.gnome.Sdk",
     "command" : "picplanner",
     "finish-args" : [
@@ -29,13 +29,14 @@
             "config-opts" : [
                 "-Denable-gtk-doc=false",
                 "-Denable-introspection=false",
-                "-Denable-installed-tests=false"
+                "-Denable-installed-tests=false",
+                "-Dsoup2=false"
             ],
             "sources" : [
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/GNOME/geocode-glib.git",
-                    "commit" : "11db75f37b77faa900255cc4835f4ab390e323bc"
+                    "commit" : "210abe69d68e38947106f4680631c369b0c23189"
                 }
             ]
         },
@@ -43,7 +44,6 @@
             "name" : "libgweather",
             "buildsystem" : "meson",
             "config-opts" : [
-                "-Dglade_catalog=false",
                 "-Denable_vala=false",
                 "-Dgtk_doc=false"
             ],
@@ -51,7 +51,7 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/GNOME/libgweather.git",
-                    "commit" : "6ac9872a5a06863f6c84f6ac836cede78b401691"
+                    "commit" : "699cfb7e114acba4e066ebda9a51e6820da3daa7"
                 }
             ]
         },
@@ -66,9 +66,9 @@
             ],
             "sources" : [
                 {
-                    "type" : "archive",
-                    "url" : "https://github.com/protocolbuffers/protobuf/releases/download/v3.17.3/protobuf-all-3.17.3.tar.gz",
-                    "sha256" : "77ad26d3f65222fd96ccc18b055632b0bfedf295cb748b712a98ba1ac0b704b2"
+                    "type" : "git",
+                    "url" : "https://github.com/protocolbuffers/protobuf.git",
+                    "commit" : "54489e95e01882407f356f83c9074415e561db00"
                 }
             ]
         },
@@ -78,9 +78,9 @@
             "buildsystem" : "autotools",
             "sources" : [
                 {
-                    "type" : "archive",
-                    "url" : "https://github.com/protobuf-c/protobuf-c/releases/download/v1.4.0/protobuf-c-1.4.0.tar.gz",
-                    "sha256" : "26d98ee9bf18a6eba0d3f855ddec31dbe857667d269bc0b6017335572f85bbcb"
+                    "type" : "git",
+                    "url" : "https://github.com/protobuf-c/protobuf-c.git",
+                    "commit" : "abc67a11c6db271bedbb9f58be85d6f4e2ea8389"
                 }
             ]
         },
@@ -97,7 +97,7 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/GNOME/libshumate.git",
-                    "commit" : "d451a469ae65ea6574caf472cee0044e4059058c"
+                    "commit" : "062c61815d2875beee19a1c704c473be8fabb3a7"
                 }
             ]
         },
@@ -126,7 +126,7 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.com/Zwarf/picplanner.git",
-                    "commit" : "1c713a8888bc797c131295ebeb429510d6d18232"
+                    "commit" : "4962fe678627f041d58a70a46ab887d1576d1775"
                 }
             ]
         }
