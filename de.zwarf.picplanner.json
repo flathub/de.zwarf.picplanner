@@ -1,7 +1,7 @@
 {
     "app-id" : "de.zwarf.picplanner",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "43",
+    "runtime-version" : "44",
     "sdk" : "org.gnome.Sdk",
     "command" : "picplanner",
     "finish-args" : [
@@ -97,7 +97,7 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/GNOME/libshumate.git",
-                    "commit" : "062c61815d2875beee19a1c704c473be8fabb3a7"
+                    "commit" : "a79548ba6e0a6043b3dcfdd44d61abe1869ddde9"
                 }
             ]
         },
@@ -114,7 +114,7 @@
                 {
                     "type" : "git",
                     "url": "https://gitlab.freedesktop.org/geoclue/geoclue.git",
-                    "commit": "10998ca3215fb6d21b5a32fdf78bb5feffaf4c0f"
+                    "commit": "bbfb6289dedb88cb8155d9f6868787d5432e1f90"
                 }
             ]
         },
@@ -125,8 +125,7 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "https://gitlab.com/Zwarf/picplanner.git",
-                    "commit" : "4962fe678627f041d58a70a46ab887d1576d1775"
+                    "url" : "~/Projekte/picplanner"
                 }
             ]
         }

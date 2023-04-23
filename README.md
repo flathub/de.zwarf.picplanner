@@ -1,8 +1,12 @@
 # PicPlanner
 
+<img align='center' alt='PicPlanner Icon' src='https://gitlab.com/Zwarf/picplanner/-/raw/master/title-image.png'/>
+<br/><br/> 
+<p> A GTK application for photographers using GNU Linux or especially Linux phones. It can be used to calculate the position of the Sun, Moon and Milky Way in order to plan the position and time for a photograph.</p>
+
 ## The Idea
-People who love to photograph know, the biggest problem is being at the right spot at the right time.
-Therefore, landscape pictures should be planned before visiting the place of choice. To plan the location it is important to know the positon of the sun, moon and sometimes also the milky way.
+People who love to photograph know, that the biggest problem is being at the right spot at the right time.
+Therefore, landscape pictures should be planned before visiting the place of choice. To plan the location it is important to know the position of the sun, moon, and sometimes also the milky way.
 Where to find the sun at which time is most of the time easy to guess but when is the sunset? And for the milky way normally nobody knows where to find it in the night sky at which time at a specific location.
 This small program should answer all these questions.
 
@@ -19,6 +23,7 @@ This small program should answer all these questions.
 +9.  Visualise important data direktly on the map
 ```
 
+
 ## Formulas used
 
 Most of the formulas used are explained in detail directly inside the code. Reference is given or will be added soon.
@@ -31,4 +36,27 @@ Some of these formulas are from the excellent book by Jean Meeus "Astronomical A
 - Libadwaita is used to make the GUI adaptive.
 - Shumate is used to show a map.
 - Libgweather is used for the offline search functionality.
-- GeoClue is used to get the users location.
+- GeoClue is used to get the users current location.
+
+
+## Build
+
+```diff
+git clone https://gitlab.com/Zwarf/picplanner.git
+cd picplanner
+meson builddir
+cd builddir
+ninja
+ninja install
+```
+
+Or download the Flatpak from <a href='https://flathub.org/apps/details/de.zwarf.picplanner'>Flathub</a>
+
+## Screenshots Desktop Size, Light Theme
+
+<a href='https://gitlab.com/zwarf/picplanner/-/blob/main/screenshots/picplanner-1.png'><img height='550px' alt='screenshot-large' src='https://gitlab.com/zwarf/picplanner/-/raw/main/screenshots/picplanner-1.png'/></a>
+<a href='https://gitlab.com/zwarf/picplanner/-/blob/main/screenshots/picplanner-2.png'><img height='550px' alt='screenshot-large' src='https://gitlab.com/zwarf/picplanner/-/raw/main/screenshots/picplanner-2.png'/></a>
+<a href='https://gitlab.com/zwarf/picplanner/-/blob/main/screenshots/picplanner-3.png'><img height='550px' alt='screenshot-large' src='https://gitlab.com/zwarf/picplanner/-/raw/main/screenshots/picplanner-3.png'/></a>
+<a href='https://gitlab.com/zwarf/picplanner/-/blob/main/screenshots/picplanner-4.png'><img height='550px' alt='screenshot-large' src='https://gitlab.com/zwarf/picplanner/-/raw/main/screenshots/picplanner-4.png'/></a>
+
+<a rel="me" href="https://social.anoxinon.de/@zwarf"></a>
