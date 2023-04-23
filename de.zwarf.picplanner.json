@@ -125,7 +125,8 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "~/Projekte/picplanner"
+                    "url" : "https://gitlab.com/Zwarf/picplanner.git",
+                    "commit": "6df7b3151b0c9b6b4be365dcf213d1412e0e9179"
                 }
             ]
         }
