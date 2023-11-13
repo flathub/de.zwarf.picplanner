@@ -54,9 +54,9 @@ Or download the Flatpak from <a href='https://flathub.org/apps/details/de.zwarf.
 
 ## Screenshots Desktop Size, Light Theme
 
-<a href='https://gitlab.com/zwarf/picplanner/-/blob/main/screenshots/picplanner-1.png'><img height='550px' alt='screenshot-large' src='https://gitlab.com/zwarf/picplanner/-/raw/main/screenshots/picplanner-1.png'/></a>
-<a href='https://gitlab.com/zwarf/picplanner/-/blob/main/screenshots/picplanner-2.png'><img height='550px' alt='screenshot-large' src='https://gitlab.com/zwarf/picplanner/-/raw/main/screenshots/picplanner-2.png'/></a>
-<a href='https://gitlab.com/zwarf/picplanner/-/blob/main/screenshots/picplanner-3.png'><img height='550px' alt='screenshot-large' src='https://gitlab.com/zwarf/picplanner/-/raw/main/screenshots/picplanner-3.png'/></a>
-<a href='https://gitlab.com/zwarf/picplanner/-/blob/main/screenshots/picplanner-4.png'><img height='550px' alt='screenshot-large' src='https://gitlab.com/zwarf/picplanner/-/raw/main/screenshots/picplanner-4.png'/></a>
+<a href='https://gitlab.com/zwarf/picplanner/-/blob/main/screenshots/picplanner-1.png'><img alt='screenshot-large' src='https://gitlab.com/zwarf/picplanner/-/raw/main/screenshots/picplanner-1.png'/></a>
+<a href='https://gitlab.com/zwarf/picplanner/-/blob/main/screenshots/picplanner-2.png'><img alt='screenshot-large' src='https://gitlab.com/zwarf/picplanner/-/raw/main/screenshots/picplanner-2.png'/></a>
+<a href='https://gitlab.com/zwarf/picplanner/-/blob/main/screenshots/picplanner-3.png'><img alt='screenshot-large' src='https://gitlab.com/zwarf/picplanner/-/raw/main/screenshots/picplanner-3.png'/></a>
+<a href='https://gitlab.com/zwarf/picplanner/-/blob/main/screenshots/picplanner-4.png'><img alt='screenshot-large' src='https://gitlab.com/zwarf/picplanner/-/raw/main/screenshots/picplanner-4.png'/></a>
 
 <a rel="me" href="https://social.anoxinon.de/@zwarf"></a>
