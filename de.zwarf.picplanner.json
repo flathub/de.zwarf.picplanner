@@ -1,7 +1,7 @@
 {
     "app-id" : "de.zwarf.picplanner",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "44",
+    "runtime-version" : "45",
     "sdk" : "org.gnome.Sdk",
     "command" : "picplanner",
     "finish-args" : [
@@ -51,7 +51,7 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/GNOME/libgweather.git",
-                    "commit" : "699cfb7e114acba4e066ebda9a51e6820da3daa7"
+                    "commit" : "04da97b8f86b1d10540f7d907841bfb5fde6bd2d"
                 }
             ]
         },
@@ -66,24 +66,24 @@
             ],
             "sources" : [
                 {
-                    "type" : "git",
-                    "url" : "https://github.com/protocolbuffers/protobuf.git",
-                    "commit" : "54489e95e01882407f356f83c9074415e561db00"
+                    "type" : "archive",
+                    "url" : "https://github.com/protocolbuffers/protobuf/releases/download/v3.17.3/protobuf-all-3.17.3.tar.gz",
+                    "sha256" : "77ad26d3f65222fd96ccc18b055632b0bfedf295cb748b712a98ba1ac0b704b2"
                 }
             ]
         },
-
         {
             "name" : "protobuf-c",
             "buildsystem" : "autotools",
             "sources" : [
                 {
-                    "type" : "git",
-                    "url" : "https://github.com/protobuf-c/protobuf-c.git",
-                    "commit" : "abc67a11c6db271bedbb9f58be85d6f4e2ea8389"
+                    "type" : "archive",
+                    "url" : "https://github.com/protobuf-c/protobuf-c/releases/download/v1.4.0/protobuf-c-1.4.0.tar.gz",
+                    "sha256" : "26d98ee9bf18a6eba0d3f855ddec31dbe857667d269bc0b6017335572f85bbcb"
                 }
             ]
         },
+
         {
             "name" : "libshumate",
             "buildsystem" : "meson",
@@ -97,24 +97,24 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/GNOME/libshumate.git",
-                    "commit" : "a79548ba6e0a6043b3dcfdd44d61abe1869ddde9"
+                    "commit" : "eeb257ab8cfca9133ec2e7da739d3ce815be7067"
                 }
             ]
         },
         {
-            "name": "libgeoclue",
-            "buildsystem": "meson",
+            "name" : "libgeoclue",
+            "buildsystem" : "meson",
             "config-opts" : [
                 "-Denable-backend=false",
                 "-Dlibgeoclue=true",
                 "-Dintrospection=true",
                 "-Dgtk-doc=false"
             ],
-            "sources": [
+            "sources" : [
                 {
                     "type" : "git",
-                    "url": "https://gitlab.freedesktop.org/geoclue/geoclue.git",
-                    "commit": "bbfb6289dedb88cb8155d9f6868787d5432e1f90"
+                    "url" : "https://gitlab.freedesktop.org/geoclue/geoclue.git",
+                    "commit" : "8a24f60969d4c235d9918796c38a6a9c42e10131"
                 }
             ]
         },
@@ -126,7 +126,7 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.com/Zwarf/picplanner.git",
-                    "commit": "6df7b3151b0c9b6b4be365dcf213d1412e0e9179"
+                    "commit": "a5ec6988c23c043206c5fa146c2d0f141bcfa217"
                 }
             ]
         }
