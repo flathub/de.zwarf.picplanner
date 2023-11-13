@@ -58,7 +58,9 @@
         {
             "name" : "protobuf",
             "buildsystem" : "autotools",
-            "config-opts": [ "DIST_LANG=cpp" ],
+            "config-opts" : [
+                "DIST_LANG=cpp"
+            ],
             "cleanup" : [
                 "/bin/protoc*",
                 "/lib/libprotoc*",
@@ -72,7 +74,6 @@
                 }
             ]
         },
-
         {
             "name" : "protobuf-c",
             "buildsystem" : "autotools",
@@ -102,23 +103,23 @@
             ]
         },
         {
-            "name": "libgeoclue",
-            "buildsystem": "meson",
+            "name" : "libgeoclue",
+            "buildsystem" : "meson",
             "config-opts" : [
                 "-Denable-backend=false",
                 "-Dlibgeoclue=true",
                 "-Dintrospection=true",
                 "-Dgtk-doc=false"
             ],
-            "sources": [
+            "sources" : [
                 {
                     "type" : "git",
-                    "url": "https://gitlab.freedesktop.org/geoclue/geoclue.git",
-                    "commit": "bbfb6289dedb88cb8155d9f6868787d5432e1f90"
+                    "url" : "https://gitlab.freedesktop.org/geoclue/geoclue.git",
+                    "commit" : "bbfb6289dedb88cb8155d9f6868787d5432e1f90"
                 }
             ]
         },
-        {
+                {
             "name" : "picplanner",
             "builddir" : true,
             "buildsystem" : "meson",
@@ -126,9 +127,12 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.com/Zwarf/picplanner.git",
-                    "commit": "aae275d9c89610f94d63dce3c129c0bf6d8a9386"
+                    "commit": "f0a35b253b9536e22696828a907ad7134380f790"
                 }
             ]
         }
-    ]
+    ],
+    "build-options" : {
+        "env" : {        }
+    }
 }
