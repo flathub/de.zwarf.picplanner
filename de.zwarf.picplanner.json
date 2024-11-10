@@ -1,7 +1,7 @@
 {
     "app-id" : "de.zwarf.picplanner",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "45",
+    "runtime-version" : "47",
     "sdk" : "org.gnome.Sdk",
     "command" : "picplanner",
     "finish-args" : [
@@ -51,14 +51,16 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/GNOME/libgweather.git",
-                    "commit" : "04da97b8f86b1d10540f7d907841bfb5fde6bd2d"
+                    "commit" : "b763fc4e7b226b777d8cd51153230f45acfa0a43"
                 }
             ]
         },
         {
             "name" : "protobuf",
             "buildsystem" : "autotools",
-            "config-opts": [ "DIST_LANG=cpp" ],
+            "config-opts" : [
+                "DIST_LANG=cpp"
+            ],
             "cleanup" : [
                 "/bin/protoc*",
                 "/lib/libprotoc*",
@@ -83,7 +85,6 @@
                 }
             ]
         },
-
         {
             "name" : "libshumate",
             "buildsystem" : "meson",
@@ -97,7 +98,7 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/GNOME/libshumate.git",
-                    "commit" : "eeb257ab8cfca9133ec2e7da739d3ce815be7067"
+                    "commit" : "e08d1442b80d0a352026505564e2cbe164b03997"
                 }
             ]
         },
@@ -114,7 +115,7 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.freedesktop.org/geoclue/geoclue.git",
-                    "commit" : "8a24f60969d4c235d9918796c38a6a9c42e10131"
+                    "commit" : "ab0a7a447ac037d5043aa04df3030796bf47d94d"
                 }
             ]
         },
@@ -125,10 +126,16 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "https://gitlab.com/Zwarf/picplanner.git",
-                    "commit": "a5ec6988c23c043206c5fa146c2d0f141bcfa217"
+                     "url" : "https://gitlab.com/Zwarf/picplanner.git",
+                     "commit": "f0b7a0107f81f6fcffdf796fd8fc496762084625"
                 }
+            ],
+            "config-opts" : [
+                "--libdir=lib"
             ]
         }
-    ]
+    ],
+    "build-options" : {
+        "env" : {        }
+    }
 }
