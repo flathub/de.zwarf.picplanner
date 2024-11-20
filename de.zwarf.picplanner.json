@@ -127,7 +127,7 @@
                 {
                     "type" : "git",
                      "url" : "https://gitlab.com/Zwarf/picplanner.git",
-                     "commit": "4ba9bb2d0a5bf9263f2ff83ced04e1bdca225466"
+                     "commit": "e8ef03d0107a401d5cdf6730a466b8c404b1c412"
                 }
             ],
             "config-opts" : [
